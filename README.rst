@@ -9,12 +9,16 @@ This utility will not process files that have already been processed and exist i
 Installation
 ------------
 
+::
+
     virtualenv env
     source env/bin/activate
     pip install .
 
-# Usage
+Usage
 -------
+
+::
 
     source env/bin/activate
     flip_them_all to_be_flipped already_flipped
