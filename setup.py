@@ -31,7 +31,13 @@ setup(
     package_dir={'flip_them_all': 'flip_them_all'},
     include_package_data=True,
     install_requires=[
+        'docopt',
     ],
+    entry_points={
+        'console_scripts': [
+            'flip_them_all= flip_them_all.cli:main',
+        ]
+    },
     license="BSD",
     zip_safe=False,
     keywords='flip_them_all',
